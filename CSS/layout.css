@@ -1,3 +1,67 @@
+header{ /*Define o cabeçalho do site*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#161616;
+    border-radius:5px; /*arredonda os cantos de um elemento*/
+    margin-top:10px;
+}
 
+.logo img{
+    width: 2%;
+    padding: 2%;
+}
+
+.navegacao a{ /*altera os hyperlinks da classe navegaçao com a tag "a"*/
+ 
+    color: rgb(173, 173, 173);
+    text-decoration:none;
+    padding:10px;
+}
+
+.navegacao a:hover{ /*altera a cor dos links quando o mouse passa por cima*/
+    color:#e32936;
+    background-color:black;
+}
+
+.principal{
+    margin-top: 0px;
+    background-color: blue;
+}
+
+.gifterra{
+    
+    float:right;
+}
+
+.amostra1{
+
+    border-color: black;
+    border-style: solid;
+    width: 10%;
+    
+}
+
+.amostra2{
+
+    border-color: black;
+    border-style: solid;
+    width: 10%;
+    
+}
+
+.amostra3{
+
+    border-color: black;
+    border-style: solid;
+    width: 10%;
+    
+}
+
+.amostra4{
+
+    border-color: black;
+    border-style: solid;
+    width: 10%;
+    
+}
 
 
