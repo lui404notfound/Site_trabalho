@@ -1,67 +1,50 @@
-header{ /*Define o cabeçalho do site*/
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#161616;
-    border-radius:5px; /*arredonda os cantos de um elemento*/
-    margin-top:10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.logo img{
-    width: 2%;
-    padding: 2%;
+body{
+    font-size: 100%;
+    background-image: linear-gradient(75deg, #9ca8ff 0, #6488ff 25%, #1d67f3 50%, #0048bb 75%, #002b87 100%);
 }
 
-.navegacao a{ /*altera os hyperlinks da classe navegaçao com a tag "a"*/
- 
-    color: rgb(173, 173, 173);
-    text-decoration:none;
-    padding:10px;
+.cabecalho{
+    background-color: #206bcc ;
+    border-width: 0,5px;
+    border-style: double;
+    border-color: rgb(172, 225, 241);
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.navegacao a:hover{ /*altera a cor dos links quando o mouse passa por cima*/
-    color:#e32936;
-    background-color:black;
+.cabecalho-imagem{
+    width: 5%;
 }
 
-.principal{
-    margin-top: 0px;
-    background-color: blue;
+.cabecalho-nav{
+    display: flex;
+    gap: 30px;
+    padding-right: 40px;
 }
 
-.gifterra{
-    
-    float:right;
+.cabecalho-nav-item{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.amostra1{
+.conteudo{
 
-    border-color: black;
-    border-style: solid;
-    width: 10%;
-    
 }
 
-.amostra2{
-
-    border-color: black;
-    border-style: solid;
-    width: 10%;
-    
+.conteudo-principal-imagem{
+    width: 50%;
 }
-
-.amostra3{
-
-    border-color: black;
-    border-style: solid;
-    width: 10%;
-    
-}
-
-.amostra4{
-
-    border-color: black;
-    border-style: solid;
-    width: 10%;
-    
-}
-
-
