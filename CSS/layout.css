@@ -11,7 +11,7 @@ body{
 }
 
 .cabecalho{
-    background-color: #206bcc ;
+    background-color: #1d2ba8 ;
     border-width: 0,5px;
     border-style: double;
     border-color: rgb(172, 225, 241);
@@ -22,10 +22,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: fixed;
+    
 }
 
 .cabecalho-imagem{
-    width: 5%;
+    width: 8%;
+    padding-left: 40px;
 }
 
 .cabecalho-nav{
@@ -38,13 +41,44 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
+    text-shadow: 3px 3px 1px black;
 }
 
 .conteudo{
+    padding-top:8%;
+    margin-bottom: 60px;
+}
 
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.4px solid white;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 250px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 2px black;
+    
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-size: 50px;
+    color: white;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 2px black;
 }
 
 .conteudo-principal-imagem{
-    width: 50%;
+    width: 40%;
 }
