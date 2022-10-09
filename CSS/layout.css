@@ -6,6 +6,7 @@
 }
 
 body{
+    width: 100%;
     font-size: 100%;
     background-image: linear-gradient(75deg, #9ca8ff 0, #6488ff 25%, #1d67f3 50%, #0048bb 75%, #002b87 100%);
 }
@@ -109,6 +110,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 70px;
+    row-gap: 20px;
 }
 
 .conteudo-secundario-divs a:hover{
