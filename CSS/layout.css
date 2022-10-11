@@ -13,17 +13,21 @@ body{
 }
 
 .cabecalho{
-    background-color: #1d2ba8 ;
-    border-width: 0,5px;
-    border-style: double;
-    border-color: rgb(172, 225, 241);
-    margin: 10px;
-    border-radius: 20px;
+    background-color: #eef0f7 ;
+    /*box-shadow: 100px 5px 50px rgb(45, 45, 48);*/
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    /*border-width: 0,5px;*/
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    /* margin: 10px;*/
+    /* border-radius: 20px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     
 }
@@ -41,10 +45,10 @@ body{
 
 .cabecalho-nav-item{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white;
+    color:rgb(10, 10, 10);
     font-weight: 400;
     font-size: 30px;
-    text-shadow: 3px 3px 1px black;
+   /* text-shadow: 3px 3px 1px black;*/
 }
 
 .cabecalho-nav a:hover{
