@@ -9,11 +9,12 @@ body{
     width: 100%;
     margin: 0 auto;
     font-size: 100%;
-    background-image: linear-gradient(270deg, #9fd8ff 0, #5389f2 50%, #0e417e 100%);
+   /* background-image: linear-gradient(270deg, #9fd8ff 0, #5389f2 50%, #0e417e 100%);*/
+   background-color: aliceblue;
 }
 
 .cabecalho{
-    background-color: #fffffffa ;
+    background-color: #9fd8ff ;
     /*box-shadow: 100px 5px 50px rgb(45, 45, 48);*/
     border-top: 0px;
     border-left: 0px;
@@ -58,7 +59,8 @@ body{
 }
 
 .conteudo-lugares{
-    padding-top: 10%;
+    padding-top: 0%;
+    
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -68,44 +70,67 @@ body{
 
 .primeiro-lugar{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0;
-    border-width: 10px;
-    border-radius: 20px;
+    flex-direction: column;
+    /*border-width: 10px;
+    border-radius: 20px;*/
     height: 100%;
-    width: 70%;
+    width: 2000px;
+    margin-bottom: 60px;
 }
 
 .primeiro-lugar-escrito{
   
-   /* height: 560.5px;*/
-    background-color: white;
-    margin: 0%;
     text-align: center;
-    padding: 30px;
-    border-color: black;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    padding: 0px;
+   /* border-color: black;
     border-style: solid;
     border-right-width: 0px;
     border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 30px;*/
 }
 
 .primeiro-lugar-escrito-titulo{
-    font-size: 50px;
+    
+    font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:30px;
+    padding:50px;
+    color:rgb(17, 16, 16);
+    text-shadow: 5px 1px 1px rgb(144, 215, 224);
   
     
 }
 
+.primeiro-lugar-escrito-paragrafo{
+    font-size: 30px;
+}
+
+.primeiro-lugar-imagem-video{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:0px;
+}
+
 .imagem-primeiro-lugar{
-    width: 60%;
+    margin: 10px;
+    width: 37%;
     border-color: black;
     border-style: solid;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
     
+   /* border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;*/
+    
+    
+}
+
+.video-primeiro-lugar{
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
 }
 
 .imagem-segundo-lugar{
