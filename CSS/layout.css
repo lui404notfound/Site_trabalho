@@ -103,14 +103,14 @@ body{
 }
 
 
-#conteudo-principal-imagem{
+/*#conteudo-principal-imagem{
     width: 40%;
     border-color: white;
     border-style:double;
     border-width: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;;
-}
+}*/
 
 .conteudo-secundario-titulo{
     background-color: #cdd6dffa;
