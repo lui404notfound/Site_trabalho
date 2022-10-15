@@ -9,27 +9,20 @@ body{
     width: 100%;
     margin: 0 auto;
     font-size: 100%;
-    /*background-image: linear-gradient(270deg, #9fd8ff 0, #5389f2 50%, #0e417e 100%);*/
     background-image: radial-gradient(circle at 50% 50%, #a4b0e3da 0, #5b5d66 50%, #0407229d 100%);
 }
 
 .cabecalho{
     background-image: radial-gradient(circle at 50% 50%, #d3d2f6 0, #a6a6b5 50%, #77787cde 100%);
-    /*box-shadow: 100px 5px 50px rgb(45, 45, 48);*/
     border-width: 0px 0px 4px 0px;
-    /*border-width: 0,5px;*/
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    /* margin: 10px;*/
-    /* border-radius: 20px; */
     box-shadow: 10px 10px 10px rgb(49, 50, 51);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 8px;
-   /*position: fixed;*/
-   
     
 }
 
@@ -102,16 +95,6 @@ body{
     text-shadow: 4px 4px 2px black;
 }
 
-
-/*#conteudo-principal-imagem{
-    width: 40%;
-    border-color: white;
-    border-style:double;
-    border-width: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;;
-}*/
-
 .conteudo-secundario-titulo{
     background-color: #cdd6dffa;
     border-color: black;
@@ -142,11 +125,7 @@ body{
 }
 
 .conteudo-secundario-divs-primeira{
-    /*background-image: url('../img/bookicon.png');
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;*/
+    
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -167,11 +146,6 @@ body{
 }
 
 .conteudo-secundario-divs-segunda{
-   /* background-image: url('../img/localicon.png');
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;*/
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -194,11 +168,6 @@ body{
 }
 
 .conteudo-secundario-divs-terceira{
-   /* background-image: url('../img/food2.png');
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;*/
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -221,11 +190,6 @@ body{
 }
 
 .conteudo-secundario-divs-quarta{
-   /* background-image: url('../img/hotelicon2.jpg');
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;*/
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
