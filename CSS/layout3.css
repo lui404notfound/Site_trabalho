@@ -9,18 +9,21 @@ body{
     width: 100%;
     margin: 0 auto;
     font-size: 100%;
-    background-image: linear-gradient(270deg, #9fd8ff 0, #5389f2 50%, #0e417e 100%);
+   /* background-image: linear-gradient(270deg, #9fd8ff 0, #5389f2 50%, #0e417e 100%);*/
+   background-color: rgb(214, 216, 218);
 }
 
 .cabecalho{
-    background-color: #fffffffa ;
+    /*background-color: #9fd8ff ;
     /*box-shadow: 100px 5px 50px rgb(45, 45, 48);*/
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    /*border-width: 0,5px;*/
+    background-image: radial-gradient(circle at 50% 50%, #d3d2f6 0, #a6a6b5 50%, #8a8c8f 100%);
+    border-width: 0px 0px 4px 0px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
+    /* margin: 10px;*/
+    /* border-radius: 20px; */
+    box-shadow: 10px 0px 30px rgb(49, 50, 51);
+    /*border-width: 0,5px;*/
     /* margin: 10px;*/
     /* border-radius: 20px; */
     display: flex;
@@ -56,3 +59,63 @@ body{
     border-radius:20px;
     transition: all 0.2s;
 }
+
+.conteudo-restaurantes{
+    padding-top: 7%; 
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.restaurante{
+    display:flex;
+    flex-direction: row;
+    margin:2%;
+    justify-content: space-around;
+    height: 100%;
+    width: 75%;
+    background-color: aliceblue;
+    padding: 4%;
+}
+
+.restaurante-escrito{
+    text-align: center;
+    padding:5px;
+    width:37.5%;
+}
+
+.restaurante-escrito-titulo{
+    
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+    color:rgb(17, 16, 16);
+    
+}
+
+.restaurante-escrito-paragrafo{
+   font-size: 30px;
+   font-family: sans-serif;
+   padding-top:30px;
+   text-align:justify;
+}
+
+.restaurante-local{
+    margin:2%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.rodape{
+    border-top: 2px solid rgb(77, 74, 74);
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 70px;
+    text-align: center;
+    color: rgb(29, 28, 28);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
