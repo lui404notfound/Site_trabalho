@@ -142,6 +142,50 @@ body{
    
 }
 
+#enderecos{
+    height: 100%;
+    width: 85%;
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 15% 4% 15%;
+}
+
+#titulo-enderecos{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5%;
+}
+
+#tabela{
+    border: 1px solid black;
+    width: 100%;
+    display: table;
+    font-size: xx-large;
+    padding:1%;
+    border-collapse: collapse;
+    
+}
+
+#cabeca{
+    background-color: rgb(180, 179, 185);
+}
+
+.cabeca-texto{
+    font-size: 30px;
+    border: 1px solid black;
+    padding:2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.corpo-texto{
+    border: 1px solid black;
+    padding: 2%;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+
 .rodape{
     border-top: 2px solid rgb(77, 74, 74);
     margin-left: 90px;
@@ -153,3 +197,12 @@ body{
     font-family: sans-serif;
 }
 
+#link-rodape{
+    text-decoration: none;
+    color:rgb(21, 22, 22);
+}
+
+a#link-rodape::after{
+    content: "→";
+  
+}
