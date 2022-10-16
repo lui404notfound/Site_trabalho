@@ -14,55 +14,46 @@ body{
 }
 
 .cabecalho{
-    /*background-color: #9fd8ff ;
-    /*box-shadow: 100px 5px 50px rgb(45, 45, 48);*/
+
     background-image: radial-gradient(circle at 50% 50%, #d3d2f6 0, #a6a6b5 50%, #8a8c8f 100%);
     border-width: 0px 0px 4px 0px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    /* margin: 10px;*/
-    /* border-radius: 20px; */
     box-shadow: 10px 0px 30px rgb(49, 50, 51);
-    /*border-width: 0,5px;*/
-    /* margin: 10px;*/
-    /* border-radius: 20px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0.5%;
     position: fixed;
     
 }
 
 .cabecalho-imagem{
     width: 8%;
-    padding-left: 40px;
+    padding-left: 2%;
 }
 
 .cabecalho-nav{
     display: flex;
-    gap: 30px;
-    padding-right: 40px;
+    gap: 6%;
+    padding-right: 8%;
 }
 
 .cabecalho-nav-item{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(10, 10, 10);
-    font-weight: 400;
     font-size: 30px;
-   /* text-shadow: 3px 3px 1px black;*/
 }
 
 .cabecalho-nav a:hover{
     transform: scale(1.1);
-    border-radius:20px;
     transition: all 0.2s;
 }
 
 .conteudo-lugares{
     padding-top: 0%; 
-    margin-bottom: 60px;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,51 +63,43 @@ body{
 .lugar{
     display:flex;
     flex-direction: column;
-    margin:40px;
+    margin:2%;
     /*border-width: 10px;
     border-radius: 20px;*/
     height: 100%;
-    width: 1800px;
+    width: 85%;
     background-color: aliceblue;
     
 }
 
 #lugarescrito{
     text-align: center;
-    margin-top: 7%;
-    margin-bottom: 3%;
+    margin: 7% 3% 3% 3%;
     padding: 0px;
 }
 
 .lugar-escrito{
-    /*background-color: aliceblue;*/
     text-align: center;
     margin: 3%;
     padding: 0px;
-   /* border-color: black;
-    border-style: solid;
-    border-right-width: 0px;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;*/
+  
 }
 
 .lugar-escrito-titulo{
     
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:50px;
+    padding:2%;
     color:rgb(17, 16, 16);
-    /*text-shadow: 5px 1px 1px rgb(144, 215, 224);*/
   
-    
 }
 
 .lugar-escrito-paragrafo{
     font-size: 30px;
     font-family: sans-serif;
-    padding: 10px;
-    padding-bottom:60px;
-    margin: 0px 20px 0px 20px;
+    text-align: justify;
+    padding: 2% 5% 3% 5%;
+
 }
 
 .lugar-imagem-video{
@@ -124,11 +107,11 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom:60px;
+    padding-bottom: 6%;
 }
 
 .imagem-lugar{
-    margin: 10px;
+    margin: 0% 5% 0% 2%;
     width: 37%;
    /* border-color: black;
     border-style: solid;*/
@@ -148,6 +131,8 @@ body{
 
 .video-lugar{
     border-color: black;
+    height: 435px;
+    width: 37%;
     border-style: solid;
     border-radius: 30px;
     box-shadow: 5px 5px 10px black;
