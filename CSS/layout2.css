@@ -116,12 +116,9 @@ body{
 .imagem-lugar{
     margin: 0% 5% 0% 2%;
     width: 37%;
-   /* border-color: black;
-    border-style: solid;*/
     border-radius: 30px;
     box-shadow: 5px 5px 10px black;
-   /* border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;*/
+ 
     
 }
 
@@ -149,13 +146,19 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 0% 15% 4% 15%;
+    padding: 0% 15% 5% 15%;
 }
 
 #titulo-enderecos{
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:5%;
+}
+
+#subtitulo-enderecos{
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 5%;
 }
 
 #tabela{
@@ -193,7 +196,7 @@ body{
     padding: 70px;
     text-align: center;
     color: rgb(29, 28, 28);
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 
