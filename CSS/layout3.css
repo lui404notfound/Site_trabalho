@@ -122,3 +122,12 @@ body{
     font-family: sans-serif;
 }
 
+#link-rodape{
+    text-decoration: none;
+    color:rgb(21, 22, 22);
+}
+
+a#link-rodape::after{
+    content: "→";
+  
+}
