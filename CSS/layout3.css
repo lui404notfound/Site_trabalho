@@ -64,6 +64,16 @@ body{
   
 }
 
+#titulo{
+    font-size: 70px;
+    font-family: Geneva, Tahoma, sans-serif;
+    padding:2%;
+}
+
+#irati{
+    text-decoration: underline;
+}
+
 .linha{
     display: flex;
     flex-direction: row;
